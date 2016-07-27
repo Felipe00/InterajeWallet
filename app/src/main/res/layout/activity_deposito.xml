@@ -14,15 +14,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:inputType="numberDecimal" />
 
     <Button
 
-        android:layout_below="@id/valorDeposito"
+        android:id="@+id/buttonD"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Depósito"
-        android:id="@+id/buttonD"
-        android:onClick="depositar"/>
+        android:layout_below="@id/valorDeposito"
+        android:onClick="depositar"
+        android:text="Depósito" />
 
 </RelativeLayout>
